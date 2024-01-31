@@ -1,0 +1,9 @@
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">{{job['title']}}</h5>
+    <h6 class="card-subtitle mb-2    ">location:- {{job['location']}}  </h6>
+{% if 'salary' in job %} 
+    <p class="card-text">salary:- {{job['salary']}}</p>
+{% endif %}
+  </div>
+</div>
